@@ -1,11 +1,8 @@
 from flask import Flask, render_template
 app = Flask(__name__)
 
-@app.route('/input')
-def func_name(foo):
-    return render_template('expression')
 
-@app.route('/read')
+@app.route('/input')
 def func_name(foo):
     return render_template('expression')
 
